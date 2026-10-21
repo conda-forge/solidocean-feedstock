@@ -1,6 +1,6 @@
 context:
   name: solidocean
-  version: "0.2.2"
+  version: "0.3.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/anufrievroman/solidocean/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d766e16053eecfcfd73e03a6569d03b9dab879b89fe84af8afbc367f5b00d5f7
+  sha256: 3d14c94b76198cb4a75074679524c25f4a4665cd18c0ef934e87c1d4f51badd6
 
 build:
   number: 0
